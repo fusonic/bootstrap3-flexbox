@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap3-flexbox",
+  "version": "0.0.0",
+  "authors": [
+    "Matthias Burtscher <matthias.burtscher@fusonic.net>"
+  ],
+  "description": "Flexbox implementations of various Bootstrap 3 components.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,40 @@
+.media {
+  display: -ms-flexbox;
+  display: flex;
+
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.media-object {
+  display: block;
+
+  &.img-thumbnail {
+    max-width: none;
+  }
+}
+
+.media-right,
+.media > .pull-right {
+  padding-left: 10px;
+}
+
+.media-left,
+.media > .pull-left {
+  padding-right: 10px;
+}
+
+.media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.media-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.media-body {
+  -ms-flex: 1;
+  flex: 1;
+}
