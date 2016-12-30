@@ -1,0 +1,2 @@
+# Enforce Unix newlines
+*.less  text eol=lf
